@@ -17,6 +17,18 @@ body {
   font-size: 14px;
   font-weight: normal;
   line-height: 26px;
+  position: relative;
+
+}
+
+
+#cart_page {
+  width: 400px;
+  height: 100vh;
+  background-color: rgb(179, 63, 63);
+  z-index: 99999 !important;
+  position: absolute !important;
+  right: 0px !important;
 }
 
 .header_top {
@@ -260,7 +272,7 @@ body {
   right: -10px;
 }
 
-#nav .categories {}
+
 
 
 .category_menu {
@@ -343,7 +355,7 @@ body {
   padding: 12px 25px 20px;
   transform-origin: top;
   transition-duration: 0.1s;
-  transform: perspective(300px) rotateX(-18deg);
+  /* transform: perspective(300px) rotateX(-18deg); */
 }
 
 .center-menu>nav>ul>li>.product_menu_text li {
@@ -2303,7 +2315,6 @@ only screen and (min-width: 576px) and (max-width: 767px),
   padding: 9px 26px 7px;
   border-radius: 6px;
   border: 0;
-  background-color: ;
   position: relative;
 }
 

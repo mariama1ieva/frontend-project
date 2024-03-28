@@ -138,3 +138,9 @@ dealIcon1.addEventListener("click", function () {
 
 
 
+let basketIcon = document.querySelector(".bsk_icon");
+let cartPage = document.querySelector(".cart_page_detail");
+basketIcon.addEventListener("click", function () {
+    console.log("dcfvgbhjkl");
+})
+
