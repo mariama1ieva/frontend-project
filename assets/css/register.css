@@ -1002,7 +1002,7 @@ nav ul:first-child li {
 
 #text-area .main-area .login-area {
     position: absolute;
-    height: 657.883px;
+    height: 700.883px;
     width: 636.007px;
     padding: 50px 60px 70px 60px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
@@ -1128,18 +1128,23 @@ form {
 form .email {
     position: absolute;
     left: 10px;
-    bottom: 285px;
+    bottom: 255px;
     background-color: white;
 }
 
 form .password {
     position: absolute;
     left: 10px;
-    bottom: 180px;
+    bottom: 150px;
     background-color: white;
 }
 
-
+form .name {
+    position: absolute;
+    left: 10px;
+    bottom: 330px;
+    background-color: white;
+}
 
 form .check {
     position: absolute;
