@@ -8,7 +8,9 @@
    <link rel="stylesheet" href="./assets/css/home.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
     ">
-
+    
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
    <script src="https://kit.fontawesome.com/680cf1a7ac.js" crossorigin="anonymous"></script>
 </head>
 
@@ -193,8 +195,9 @@
                <div class="row  align-items-center">
                   <div class="col-lg-3">
                      <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle category" type="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle category"
+                           style="background-color: #0989FF; border: none;" type="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
                            <span>
                               <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -207,30 +210,21 @@
                            <i class="fa-solid fa-chevron-down"></i>
                         </button>
                         <ul class="dropdown-menu category_menu">
-                           <li><a class="dropdown-item" href="#"> New Arrivals</a></li>
-                           <li class="dropdown_menu_ts"><a class="dropdown-item " href="#">Electronics <i
-                                    class="fa-solid fa-chevron-down"></i></a>
-                              <ul>
-                                 <li>
-                                    <a href="">Gift</a>
-                                 </li>
-                                 <li>
-                                    <a href="">Gift</a>
-                                 </li>
-                                 <li>
-                                    <a href="">Gift</a>
-                                 </li>
-                                 <li>
-                                    <a href="">Gift</a>
-                                 </li>
-                              </ul>
-                           </li>
-                           <li><a class="dropdown-item" href="#">Gift</a></li>
-                           <li><a class="dropdown-item" href="#">Computers</a></li>
-                           <li><a class="dropdown-item" href="#"> Smartphones & Tablets</a></li>
-                           <li><a class="dropdown-item" href="#">Camera</a></li>
-                           <li><a class="dropdown-item" href="#">Cooking</a></li>
-                           <li><a class="dropdown-item" href="#">Sports</a></li>
+                           <li style="display: flex; width: 270px;"> <img style="width: 60px; height: 60px;"
+                                 src="./assets/image/headphone-1 (1).png" alt=""><a class="dropdown-item mt-3" href=""
+                                 style="font-size: 18px;">Headphones</a></li>
+                           <li style="display: flex; width: 270px;"> <img style="width: 60px; height: 60px;"
+                                 src="./assets/image/ipad-1.png" alt=""><a class="dropdown-item mt-3" href=""
+                                 style="font-size: 18px;">Mobile tablets</a></li>
+                           <li style="display: flex; width: 270px;"> <img style="width: 60px; height: 60px;"
+                                 src="./assets/image/cpu-1.png" alt=""><a class="dropdown-item mt-3" href=""
+                                 style="font-size: 18px;"> CPU Heat Pipes </a></li>
+                           <li style="display: flex; width: 270px;"> <img style="width: 60px; height: 60px;"
+                                 src="./assets/image/watch-1.png" alt=""><a class="dropdown-item mt-3" href=""
+                                 style="font-size: 18px;">Smart Watch</a></li>
+                           <li style="display: flex; width: 270px;"> <img style="width: 60px; height: 60px;"
+                                 src="./assets/image/blutooth-1.png" alt=""><a class="dropdown-item mt-3" href=""
+                                 style="font-size: 18px;">Blutooth</a></li>
                         </ul>
                      </div>
                   </div>
@@ -351,17 +345,16 @@
          </div>
       </section>
 
-      <section id="banner">
-         <i class="fa-solid fa-chevron-left next"></i>
-         <i class="fa-solid fa-chevron-right prev"></i>
-         <div class="banner_main">
-            <div class="banner_item">
+      <div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" role="tabpanel"
+         id="slick-slide00" style="width: 1519px;">
+         <div>
+            <div class="banner_item" style="width: 100%; display: inline-block;">
                <div class="container">
                   <div class="row align-items-center">
                      <div class="col-lg-6">
-                        <div class="home-slider-content p-relative z-index-1">
+                        <div class="tp-slider-content p-relative z-index-1">
                            <span>Starting at <b>$274.00</b></span>
-                           <h3 class="home-slider-title">The best tablet Collection 2023</h3>
+                           <h3 class="tp-slider-title">The best tablet Collection 2023</h3>
                            <p>Exclusive offer
                               <span>-35%
                                  <svg width="94" height="20" viewBox="0 0 94 20" fill="none"
@@ -374,8 +367,8 @@
                               off this week
                            </p>
 
-                           <div class="home-slider-btn">
-                              <a href="shop.html">Shop Now
+                           <div class="tp-slider-btn">
+                              <a href="shop.html" tabindex="0">Shop Now
                                  <svg width="17" height="14" viewBox="0 0 17 14" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M16 6.99976L1 6.99976" stroke="currentColor" stroke-width="1.5"
@@ -389,89 +382,14 @@
 
 
                      </div>
-                     <div class="col-lg-6 ">
-                        <img src="./assets/image/slider-1.png" alt="">
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="banner_item">
-               <div class="container">
-                  <div class="row ">
-                     <div class="col-lg-6">
-                        <span>Starting at <b>$999.00</b></span>
-                        <h3 class="home-slider-title">The best note book collection 2023</h3>
-                        <p>Exclusive offer
-                           <span>-10%
-                              <svg width="94" height="20" viewBox="0 0 94 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M74.8576 4.63367L78.6048 5.11367C80.9097 5.35155 82.8309 5.75148 84.4483 5.97993L86.6581 6.31091L88.4262 6.63948C89.4684 6.81761 90.2699 6.9312 90.8805 6.99186C93.3213 7.24888 92.7011 6.63674 92.8183 6.12534C92.9355 5.61394 93.7175 5.37081 91.3267 4.45886C90.73 4.24001 89.9345 3.97481 88.8826 3.65818L87.1034 3.12577L84.8643 2.63282C83.236 2.28025 81.2402 1.82307 78.8684 1.52138L75.0177 0.981633C73.6188 0.823014 72.1417 0.730003 70.5389 0.582533C63.0297 0.0282543 55.4847 0.193022 48.0068 1.07459C39.9065 2.04304 31.9328 3.87384 24.2213 6.53586C18.0824 8.61764 12.1674 11.3089 6.56479 14.5692C4.88189 15.5255 3.25403 16.5756 1.68892 17.7145C0.568976 18.5077 -0.00964231 18.9932 0.0547097 19.0858C0.388606 19.6584 10.6194 13.1924 25.151 8.99361C32.789 6.72748 40.6283 5.20536 48.5593 4.44848C55.8569 3.76455 63.1992 3.69678 70.5082 4.24591L74.8223 4.62335"
-                                    fill="currentColor"></path>
-                              </svg>
-                           </span>
-                           off this week
-                        </p>
-
-                        <div class="home-slider-btn">
-                           <a href="shop.html" class="home-btn home-btn-2 home-btn-white">Shop Now
-                              <svg width="17" height="14" viewBox="0 0 17 14" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M16 6.99976L1 6.99976" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                 <path d="M9.9502 0.975414L16.0002 6.99941L9.9502 13.0244" stroke="currentColor"
-                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                              </svg>
-                           </a>
-                        </div>
-
-                     </div>
-                     <div class="col-lg-6 ">
-                        <img src="./assets/image/slider-2.png" alt="">
-                     </div>
-
-                  </div>
-               </div>
-            </div>
-            <div class="banner_item banner_item_df">
-               <div class="container">
-                  <div class="row align-items-center">
-                     <div class="col-lg-6">
-                        <span>Starting at <b>$999.00</b></span>
-                        <h3 class="home-slider-title">The best note book collection 2023</h3>
-                        <p>Exclusive offer
-                           <span>-10%
-                              <svg width="94" height="20" viewBox="0 0 94 20" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path
-                                    d="M74.8576 4.63367L78.6048 5.11367C80.9097 5.35155 82.8309 5.75148 84.4483 5.97993L86.6581 6.31091L88.4262 6.63948C89.4684 6.81761 90.2699 6.9312 90.8805 6.99186C93.3213 7.24888 92.7011 6.63674 92.8183 6.12534C92.9355 5.61394 93.7175 5.37081 91.3267 4.45886C90.73 4.24001 89.9345 3.97481 88.8826 3.65818L87.1034 3.12577L84.8643 2.63282C83.236 2.28025 81.2402 1.82307 78.8684 1.52138L75.0177 0.981633C73.6188 0.823014 72.1417 0.730003 70.5389 0.582533C63.0297 0.0282543 55.4847 0.193022 48.0068 1.07459C39.9065 2.04304 31.9328 3.87384 24.2213 6.53586C18.0824 8.61764 12.1674 11.3089 6.56479 14.5692C4.88189 15.5255 3.25403 16.5756 1.68892 17.7145C0.568976 18.5077 -0.00964231 18.9932 0.0547097 19.0858C0.388606 19.6584 10.6194 13.1924 25.151 8.99361C32.789 6.72748 40.6283 5.20536 48.5593 4.44848C55.8569 3.76455 63.1992 3.69678 70.5082 4.24591L74.8223 4.62335"
-                                    fill="currentColor"></path>
-                              </svg>
-                           </span>
-                           off this week
-                        </p>
-
-                        <div class="home-slider-btn">
-                           <a href="shop.html" class="home-btn home-btn-2 home-btn-white">Shop Now
-                              <svg width="17" height="14" viewBox="0 0 17 14" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M16 6.99976L1 6.99976" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                 <path d="M9.9502 0.975414L16.0002 6.99941L9.9502 13.0244" stroke="currentColor"
-                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                              </svg>
-                           </a>
-                        </div>
-
-                     </div>
-                     <div class="col-lg-6 ">
-                        <img src="./assets/image/slider-2.png" alt="">
+                     <div class="col-lg-6 d-flex justify-content-end d-none d-lg-block">
+                        <img src="images/slider-img-1.png" alt="banner_image">
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </section>
+      </div>
       <section id="product">
          <div class="container">
             <div class="row row-cols-xl-5 row-cols-lg-5 row-cols-md-4">
@@ -703,14 +621,15 @@
 
             <div class="row new ">
                <div class="col-lg-3 col-sm-12 col-md-6">
-                  <div class="product_cart">
+                  <div class="product_cart" data-id="0">
                      <div class="card_image">
                         <img src="./assets/image/headphone-8.png" alt="">
                      </div>
                      <div class="card_icons">
                         <div class="card_basket">
-                           <a href=""><svg _ngcontent-ng-c981459201="" width="17" height="17" viewBox="0 0 17 17"
-                                 fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <a href="">
+                              <svg _ngcontent-ng-c981459201="" width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
                                  <path _ngcontent-ng-c981459201="" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M3.34706 4.53799L3.85961 10.6239C3.89701 11.0923 4.28036 11.4436 4.74871 11.4436H4.75212H14.0265H14.0282C14.4711 11.4436 14.8493 11.1144 14.9122 10.6774L15.7197 5.11162C15.7384 4.97924 15.7053 4.84687 15.6245 4.73995C15.5446 4.63218 15.4273 4.5626 15.2947 4.54393C15.1171 4.55072 7.74498 4.54054 3.34706 4.53799ZM4.74722 12.7162C3.62777 12.7162 2.68001 11.8438 2.58906 10.728L1.81046 1.4837L0.529505 1.26308C0.181854 1.20198 -0.0501969 0.873587 0.00930333 0.526523C0.0705036 0.17946 0.406255 -0.0462578 0.746256 0.00805037L2.51426 0.313534C2.79901 0.363599 3.01576 0.5995 3.04042 0.888012L3.24017 3.26484C15.3748 3.26993 15.4139 3.27587 15.4726 3.28266C15.946 3.3514 16.3625 3.59833 16.6464 3.97849C16.9303 4.35779 17.0493 4.82535 16.9813 5.29376L16.1747 10.8586C16.0225 11.9177 15.1011 12.7162 14.0301 12.7162H14.0259H4.75402H4.74722Z"
                                     fill="currentColor"></path>
@@ -729,7 +648,8 @@
                                  <path _ngcontent-ng-c981459201="" fill-rule="evenodd" clip-rule="evenodd"
                                     d="M13.9692 15.3092C13.874 15.3092 13.7958 15.3874 13.7958 15.4835C13.7966 15.6781 14.1451 15.6764 14.1443 15.4835C14.1443 15.3874 14.0652 15.3092 13.9692 15.3092ZM13.969 16.5815C13.3621 16.5815 12.8691 16.0884 12.8691 15.4826C12.8691 14.8767 13.3621 14.3845 13.969 14.3845C14.5768 14.3845 15.0706 14.8767 15.0706 15.4826C15.0706 16.0884 14.5768 16.5815 13.969 16.5815Z"
                                     fill="currentColor"></path>
-                              </svg></a>
+                              </svg>
+                           </a>
                            <button class="card_basket_text">add to card</button>
 
                         </div>
@@ -774,7 +694,7 @@
                      </div>
 
                   </div>
-                  <div class="card_description  mt-4">
+                  <div class="card_description mt-4">
                      <span><a href="" style="font-size: 13px; opacity: 0.7;">Headphones</a></span>
 
                      <p><a href="">Headphones Wireless.</a></p>
@@ -784,12 +704,12 @@
                      <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
                      <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
                      <br>
-                     <span class="card_price"><strike style="font-size: small;">$120</strike> <span class="main_price"
-                           style="font-size: 16px; color: #0989FF;">$103.20</span></span>
+                     <span class="card_price"><strike style="font-size: small;">$120</strike>
+                        <span class="main_price" style="font-size: 16px; color: #0989FF;">$103.20</span></span>
                   </div>
                </div>
                <div class="col-lg-3 col-sm-12 col-md-6">
-                  <div class="product_cart">
+                  <div class="product_cart" data-id="1">
                      <div class="card_image">
                         <img src="./assets/image/headphone-1 (1).png" alt="">
                      </div>
@@ -5737,10 +5657,13 @@
 </body>
 
 
+<script src="./assets/js/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="./assets/js/basket.js"></script>
 <script src="./assets/js/home.js"></script>
 
 </html>
