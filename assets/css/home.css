@@ -641,7 +641,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .banner_item_df {
-  height: 516px;
+  height: 585px;
   background-color: #e3edf6;
 
 }
@@ -872,6 +872,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
   padding-top: 60px;
   padding-bottom: 15px;
 }
+
+
 
 .product_image {
   width: 180px;
@@ -1738,6 +1740,15 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 #home-product-banner-area {
   padding-bottom: 160px;
+}
+
+
+#home-product-banner-area a {
+  color: white;
+}
+
+#home-product-banner-area a:hover {
+  color: black !important;
 }
 
 .home-product-banner-subtitle {
