@@ -37,6 +37,7 @@ basketBtns.forEach(btn => {
     });
 });
 
+
 function setColorBasket() {
     const productElements = document.querySelectorAll(".product_cart");
 
